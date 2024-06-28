@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { ProductItem } from "../component/product-item";
-import "./style.css";
 import { Text, Input, Flex, useBreakpointValue } from "@chakra-ui/react";
 
 interface Product {
